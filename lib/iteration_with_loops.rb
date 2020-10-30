@@ -3,6 +3,6 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   for i in 0...src.size
-    sorted << matrix[i].sort
+    sorted << src[i].sort
   end
 end
